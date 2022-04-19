@@ -1,0 +1,290 @@
+#menu {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    overflow: hidden;
+    background-color: #a19e94;
+}
+
+li {
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #fff;
+}
+
+#fond {
+    padding-bottom: 10rem;
+}
+
+#fond img {
+position: relative;
+width: 80%;
+height: 45rem;
+left: 10%;
+top: 11rem;
+max-height: 45rem;
+background: url(restaurantfond.jpg);
+opacity: 0.5;
+
+}
+
+h1 {
+    /* Pizzeria La Manu */
+position: absolute;
+width: 80%;
+height: 40rem;
+left: 10%;
+top: 20rem;
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 112px;
+text-align: center;
+
+color: #4E4747;
+}
+
+.acces {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#contact {
+    /* ACCES 145 rue Yves le Coz 78000 VERSAILLES 06 99 99 99 99 reservation@lamanu.fr */
+    position: relative;
+    width: 80%;
+    height: 10rem;
+    left: 10%;
+    top: 5rem;
+
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#plan {
+    text-align: center;
+    margin-top: 6rem;
+    overflow: hidden;
+    position: relative;
+    height: 32rem;
+}
+
+#plan iframe {
+    left:0;
+    top: 1rem;
+    height:100%;
+    width:60%;
+    position:relative;
+    }
+
+#tel a {
+
+    color: #000000;
+}
+#mail a {
+    color: #000000;
+}
+
+#tel a:hover {
+    color: #fff;
+    background-color: #000000;
+}
+
+#mail a:hover {
+    color: #fff;
+    background-color: #000000;
+}
+
+footer {
+    left: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    position: absolute;
+    background-color:#a19e94 ;
+    display: flex;
+    justify-content: space-around;
+}
+#secfinal{
+    margin-top: 10rem;
+}
+/* css du a propos ci dessous */
+
+#apropos {
+    height: 780px;
+    width: 100%;
+}
+
+
+#apropos1 {
+    height: 195px;
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+
+}
+
+#ss_apropos1_1 {
+    width: 70%;
+    display: flex;
+}
+
+#p_ss_apropos1_1 {
+    padding-left: 30px;
+    padding-right: 170px;
+    padding-top: 15px;
+}
+
+#ss_apropos1_2 {
+    width: 30%;
+    display: flex;
+}
+
+#apropos2 {
+    height: 315px;
+    width: 100%; 
+    display: flex;   
+}
+
+#ss_apropos2_1 {
+    width: 50%;
+    display: flex;
+       
+}
+
+#ss_apropos2_2 {
+    width: 50%;
+    display: flex;   
+}
+
+#p_ss_apropos2_2 {
+    padding: 50px 70px 10px 10px;
+}
+
+#apropos3 {
+    height:260px;
+    width: 100%;
+    display: flex;
+    
+}
+
+#ss_apropos3_1 {
+    width: 70%;
+    display: flex;    
+}
+
+#p_ss_a_propos3_1 {
+    padding-left: 30px;
+    padding-right: 170px;
+    padding-top: 50px;
+}
+
+#ss_apropos3_2 {
+    width: 40%;
+    display: flex;
+      
+}
+
+.Photo_Cuisinier3 {
+    height: 180px;
+    width: 400px;
+}
+
+.Photo_four2 {
+    height: 300px;
+    width: 570px;
+    padding-left: 70px;
+
+}
+
+.Photo_restaurant3 {
+    height: 250px;
+    width: 460px;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #carte {
+        display: flex;
+        padding-top: 15rem;
+        margin-bottom: 10rem;
+    }
+    #carte1{
+        width: 60%;
+        display: flex;
+    }
+    
+    #carte1_1{
+        width: 75%;
+        padding-left: 3rem;
+    }
+    
+    #carte1_2{
+        width: 25%;
+    }
+    .prix_pizzas{
+        padding-left: 20px;
+        padding-top: 20px;
+        line-height: 35px;
+    }
+    #carte2{
+        display: flex;
+        width: 35%;
+    }
+    
+    #carte2_1{
+        width: 70%; 
+    }
+    
+    #carte2_2{
+        width: 30%; 
+    }
+    .prix_glaces{
+        padding-top: 20px;
+        padding-left: 20px;
+        line-height: 20px;
+    }
+    .prix_vins{
+        padding-top: 43px;
+        line-height: 35px;
+        padding-left: 20px;
+    }
+    #lesvins{
+        padding-top: 1.4rem;
+    }
