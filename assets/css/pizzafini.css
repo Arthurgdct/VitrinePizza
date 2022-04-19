@@ -41,38 +41,37 @@ li a:hover {
 }
 
 #fond img {
-position: relative;
-width: 80%;
-height: 45rem;
-left: 10%;
-top: 11rem;
-max-height: 45rem;
-background: url(restaurantfond.jpg);
-opacity: 0.5;
+    position: relative;
+    width: 80%;
+    height: 45rem;
+    left: 10%;
+    top: 11rem;
+    max-height: 45rem;
+    background: url(restaurantfond.jpg);
+    opacity: 0.5;
 
 }
 
 h1 {
     /* Pizzeria La Manu */
-position: absolute;
-width: 80%;
-height: 40rem;
-left: 10%;
-top: 20rem;
+    position: absolute;
+    width: 80%;
+    height: 40rem;
+    left: 10%;
+    top: 20rem;
+    font-family: 'Italianno', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 112px;
+    text-align: center;
 
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 90px;
-line-height: 112px;
-text-align: center;
-
-color: #4E4747;
+    color: #4E4747;
 }
 
-.acces {
-    margin-top: 0;
-    padding-top: 0;
+#acces {
+    margin-top: 11rem;
+    font-family: 'Italianno', cursive;
 }
 
 #contact {
@@ -82,9 +81,7 @@ color: #4E4747;
     height: 10rem;
     left: 10%;
     top: 5rem;
-
-    font-family: 'Gentium Book Basic';
-    font-style: normal;
+    font-style: bold;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -102,17 +99,18 @@ color: #4E4747;
 }
 
 #plan iframe {
-    left:0;
+    left: 0;
     top: 1rem;
-    height:100%;
-    width:60%;
-    position:relative;
-    }
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
 
 #tel a {
 
     color: #000000;
 }
+
 #mail a {
     color: #000000;
 }
@@ -136,18 +134,23 @@ footer {
     padding-top: 1rem;
     width: 100%;
     position: absolute;
-    background-color:#a19e94 ;
+    background-color: #a19e94;
     display: flex;
     justify-content: space-around;
 }
-#secfinal{
+
+#secfinal {
     margin-top: 10rem;
+    
 }
+
 /* css du a propos ci dessous */
 
 #apropos {
     height: 780px;
     width: 100%;
+    font-family: 'Italianno', cursive;
+    font-size: 1.5rem;
 }
 
 
@@ -177,19 +180,20 @@ footer {
 
 #apropos2 {
     height: 315px;
-    width: 100%; 
-    display: flex;   
+    width: 100%;
+    display: flex;
 }
 
 #ss_apropos2_1 {
     width: 50%;
     display: flex;
-       
+
 }
 
 #ss_apropos2_2 {
     width: 50%;
-    display: flex;   
+    display: flex;
+    margin-top: 4rem;
 }
 
 #p_ss_apropos2_2 {
@@ -197,15 +201,15 @@ footer {
 }
 
 #apropos3 {
-    height:260px;
+    height: 260px;
     width: 100%;
     display: flex;
-    
+
 }
 
 #ss_apropos3_1 {
     width: 70%;
-    display: flex;    
+    display: flex;
 }
 
 #p_ss_a_propos3_1 {
@@ -215,14 +219,14 @@ footer {
 }
 
 #ss_apropos3_2 {
-    width: 40%;
+    width: 60%;
     display: flex;
-      
+
 }
 
 .Photo_Cuisinier3 {
-    height: 180px;
-    width: 400px;
+    height: 250px;
+    width: 460px;
 }
 
 .Photo_four2 {
@@ -235,56 +239,70 @@ footer {
 .Photo_restaurant3 {
     height: 250px;
     width: 460px;
-    }
-    body{
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    #carte {
-        display: flex;
-        padding-top: 15rem;
-        margin-bottom: 10rem;
-    }
-    #carte1{
-        width: 60%;
-        display: flex;
-    }
-    
-    #carte1_1{
-        width: 75%;
-        padding-left: 3rem;
-    }
-    
-    #carte1_2{
-        width: 25%;
-    }
-    .prix_pizzas{
-        padding-left: 20px;
-        padding-top: 20px;
-        line-height: 35px;
-    }
-    #carte2{
-        display: flex;
-        width: 35%;
-    }
-    
-    #carte2_1{
-        width: 70%; 
-    }
-    
-    #carte2_2{
-        width: 30%; 
-    }
-    .prix_glaces{
-        padding-top: 20px;
-        padding-left: 20px;
-        line-height: 20px;
-    }
-    .prix_vins{
-        padding-top: 43px;
-        line-height: 35px;
-        padding-left: 20px;
-    }
-    #lesvins{
-        padding-top: 1.4rem;
-    }
+    margin-left: 30rem;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#carte {
+    display: flex;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    font-family: 'Italianno', cursive;
+    font-size: 1.5rem;
+}
+
+#carte1 {
+    width: 60%;
+    display: flex;
+}
+
+#carte1_1 {
+    width: 75%;
+    padding-left: 3rem;
+}
+
+#carte1_2 {
+    width: 25%;
+    border-right-width: 1px;
+    border-right-style: solid;
+    margin-right: 8rem;
+}
+
+.prix_pizzas {
+    padding-left: 20px;
+    padding-top: 0;
+    line-height: 62px;
+}
+
+#carte2 {
+    display: flex;
+    width: 35%;
+}
+
+#carte2_1 {
+    width: 70%;
+}
+
+#carte2_2 {
+    width: 30%;
+}
+
+.prix_glaces {
+    padding-top: 0;
+    padding-left: 20px;
+    line-height: 31px;
+}
+
+.prix_vins {
+    padding-top: 67px;
+    line-height: 58px;
+    padding-left: 20px;
+}
+
+#lesvins {
+    padding-top: 1.4rem;
+}
